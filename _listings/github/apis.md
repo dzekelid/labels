@@ -40,7 +40,7 @@ apis:
   tags: Labels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/labels/master/_listings/github/repos-owner-repo-labels-name-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/labels/master/_listings/github/repos-owner-repo-milestones-number-labels-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
