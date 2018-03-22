@@ -22,9 +22,9 @@ tags:
 - Machine Learning
 - Facial Recognition
 - Amazon Web Services
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/labels/master/_listings/aws-rekognition/apis.yaml
+created: "2018-03-21"
+modified: "2018-03-21"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/aws-rekognition/apis.yaml
 specificationVersion: "0.14"
 apis:
 - name: AWS Rekognition API
@@ -36,7 +36,7 @@ apis:
   tags: Labels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/labels/master/_listings/aws-rekognition/action-detectlabels-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/aws-rekognition/action-detectlabels-get.md
 x-common:
 - type: x-blog
   url: https://aws.amazon.com/rekognition/developers/#blog-posts
