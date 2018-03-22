@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DetectLabels&k=1:
+  /?Action=DetectLabels:
     get:
       summary: ' Detect Labels '
       description: |-
