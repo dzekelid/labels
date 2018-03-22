@@ -40,7 +40,7 @@ apis:
   tags: Labels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-labels-name-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-labels-name-get.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
