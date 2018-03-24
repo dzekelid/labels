@@ -18,8 +18,8 @@ tags:
 - Files
 - Email
 - Contact
-created: "2018-03-21"
-modified: "2018-03-21"
+created: "2018-03-23"
+modified: "2018-03-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/microsoft-graph/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -32,7 +32,7 @@ apis:
   tags: Labels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/microsoft-graph/datalabels-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/microsoft-graph/,-data,-labels-get.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
