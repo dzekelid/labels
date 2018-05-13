@@ -29,6 +29,18 @@ x-common:
   url: https://twitter.com/NewRelic
 - type: x-website
   url: https://newrelic.com/
+- type: x-blog
+  url: https://blog.newrelic.com/
+- type: x-blog-rss
+  url: https://blog.newrelic.com/feed/
+- type: x-developer
+  url: https://rpm.newrelic.com/api/explore/
+- type: x-github
+  url: https://github.com/newrelic
+- type: x-twitter
+  url: https://twitter.com/NewRelic
+- type: x-website
+  url: https://newrelic.com/
 include: []
 maintainers:
 - FN: Kin Lane
