@@ -41,17 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-milestones-number-labels-get.md
-- name: Github Delete Repos Owner Repo Labels Name
-  description: Delete a label.
+- name: Github Get Repos Owner Repo Labels Name
+  description: Get a single label.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Labels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-labels-name-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-labels-name-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-labels-name-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-labels-name-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
