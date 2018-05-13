@@ -41,15 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-milestones-number-labels-get.md
-- name: Github Patch Repos Owner Repo Labels Name
-  description: Update a label.
+- name: Github Get Repos Owner Repo Milestones Number Labels
+  description: Get labels for every issue in a milestone.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Labels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-labels-name-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-milestones-number-labels-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-milestones-number-labels-get-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
