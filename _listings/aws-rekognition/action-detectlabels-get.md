@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Rekognition API
+  title: AWS Rekognition API Detect Labels
   version: 1.0.0
+  description: |-
+    Detects instances of real-world labels within an image (JPEG or PNG)
+           provided as input.
 schemes:
 - http
 produces:
