@@ -41,17 +41,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-milestones-number-labels-get.md
-- name: Github Put Repos Owner Repo Issues Number Labels
-  description: |-
-    Replace all labels for an issue.
-    Sending an empty array ([]) will remove all Labels from the Issue.
+- name: Github Delete Repos Owner Repo Issues Number Labels Name
+  description: Remove a label from an issue.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
   baseURL: https://api.github.com//
   tags: Labels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-issues-number-labels-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-issues-number-labels-name-delete.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/repos-owner-repo-issues-number-labels-name-delete-postman.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
