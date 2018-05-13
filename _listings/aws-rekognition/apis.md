@@ -37,7 +37,34 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/aws-rekognition/action-detectlabels-get.md
+- name: AWS Rekognition API Detect Labels
+  description: |-
+    Detects instances of real-world labels within an image (JPEG or PNG)
+           provided as input.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
+  humanURL: https://aws.amazon.com/rekognition/
+  baseURL: http:://{host}//
+  tags: Labels
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/aws-rekognition/action-detectlabels-get.md
 x-common:
+- type: x-blog
+  url: https://aws.amazon.com/rekognition/developers/#blog-posts
+- type: x-customers
+  url: https://aws.amazon.com/rekognition/customers/
+- type: x-documentation
+  url: http://docs.aws.amazon.com/rekognition/latest/dg/API_Reference.htm
+- type: x-faq
+  url: https://aws.amazon.com/rekognition/faqs/
+- type: x-getting-started
+  url: https://aws.amazon.com/rekognition/getting-started/
+- type: x-pricing
+  url: https://aws.amazon.com/rekognition/pricing/
+- type: x-sdk
+  url: https://aws.amazon.com/rekognition/developers/#sdk
+- type: x-website
+  url: https://aws.amazon.com/rekognition/
 - type: x-blog
   url: https://aws.amazon.com/rekognition/developers/#blog-posts
 - type: x-customers
