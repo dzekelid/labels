@@ -33,18 +33,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/microsoft-graph/datalabels-patch.md
-- name: Microsoft Graph API Get Chart Data Labels
-  description: Get ChartDataLabels Retrieve the properties and relationships of chartdatalabels
-    object.
+- name: Microsoft Graph API Update Chartdatalabels
+  description: Update chartdatalabels Update the properties of chartdatalabels object.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/microsoft-graph.png
   humanURL: https://developer.microsoft.com/en-us/graph/
   baseURL: https://graph.microsoft.com//
   tags: Labels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/microsoft-graph/,-data,-labels-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/microsoft-graph/datalabels-patch.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/microsoft-graph/,-data,-labels-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/microsoft-graph/datalabels-patch-postman.md
 x-common:
 - type: x-change-loge
   url: https://developer.microsoft.com/en-us/graph/docs/overview/changelog
