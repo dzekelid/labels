@@ -1,70 +1,63 @@
 ---
 name: AWS Rekognition
+x-slug: aws-rekognition
 description: Amazon Rekognition is a service that makes it easy to add image analysis
   to your applications. With Rekognition, you can detect objects, scenes, and faces
-  in images. You can also search and compare faces. Rekognitionrsquo;s API enables
+  in images. You can also search and compare faces. Rekognition&rsquo;s API enables
   you to quickly add sophisticated deep learning-based visual search and image classification
-  to your applications.nAmazon Rekognition is based on the same proven, highly scalable,
-  deep learning technology developed by Amazonrsquo;s computer vision scientists to
-  analyze billions of images daily for Prime Photos. Amazon Rekognition uses deep
+  to your applications.Amazon Rekognition is based on the same proven, highly scalable,
+  deep learning technology developed by Amazon&rsquo;s computer vision scientists
+  to analyze billions of images daily for Prime Photos. Amazon Rekognition uses deep
   neural network models to detect and label thousands of objects and scenes in your
   images, and we are continually adding new labels and facial recognition features
-  to the service.nRekognitionrsquo;s API lets you easily build powerful visual search
+  to the service.Rekognition&rsquo;s API lets you easily build powerful visual search
   and discovery into your applications. With Amazon Rekognition, you only pay for
   the images you analyze and the face metadata you store. There are no minimum fees
   and there are no upfront commitments.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Stack Network
-- Object Recognition
-- Machine Learning
-- Facial Recognition
-- Amazon Web Services
-created: "2018-03-23"
-modified: "2018-03-23"
-url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/aws-rekognition/apis.yaml
+x-alexaRank: "0"
+tags: Labels
+created: "2018-06-20"
+modified: "2018-06-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/aws-rekognition/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS Rekognition API
-  description: Amazon Rekognition is a service that makes it easy to add image analysis
-    to your applications
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
-  humanURL: ""
-  baseURL: :///
-  tags: Labels
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/aws-rekognition/action-detectlabels-get.md
 - name: AWS Rekognition API Detect Labels
+  x-api-slug: aws-rekognition-api
   description: |-
     Detects instances of real-world labels within an image (JPEG or PNG)
            provided as input.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
   humanURL: https://aws.amazon.com/rekognition/
-  baseURL: http:://{host}//
+  baseURL: ://///?Action=DetectLabels
+  tags: Machine Learning,Labels
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/aws-rekognition/actiondetectlabels-get-openapi.md
+- name: AWS Rekognition API
+  x-api-slug: aws-rekognition-api
+  description: Amazon Rekognition is a service that makes it easy to add image analysis
+    to your applications. With Rekognition, you can detect objects, scenes, and faces
+    in images. You can also search and compare faces. Rekognition&rsquo;s API enables
+    you to quickly add sophisticated deep learning-based visual search and image classification
+    to your applications.Amazon Rekognition is based on the same proven, highly scalable,
+    deep learning technology developed by Amazon&rsquo;s computer vision scientists
+    to analyze billions of images daily for Prime Photos. Amazon Rekognition uses
+    deep neural network models to detect and label thousands of objects and scenes
+    in your images, and we are continually adding new labels and facial recognition
+    features to the service.Rekognition&rsquo;s API lets you easily build powerful
+    visual search and discovery into your applications. With Amazon Rekognition, you
+    only pay for the images you analyze and the face metadata you store. There are
+    no minimum fees and there are no upfront commitments.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-rekognition.png
+  humanURL: https://aws.amazon.com/rekognition/
+  baseURL: :///
   tags: Labels
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/aws-rekognition/action-detectlabels-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/aws-rekognition/openapi.md
 x-common:
-- type: x-blog
-  url: https://aws.amazon.com/rekognition/developers/#blog-posts
-- type: x-customers
-  url: https://aws.amazon.com/rekognition/customers/
-- type: x-documentation
-  url: http://docs.aws.amazon.com/rekognition/latest/dg/API_Reference.htm
-- type: x-faq
-  url: https://aws.amazon.com/rekognition/faqs/
-- type: x-getting-started
-  url: https://aws.amazon.com/rekognition/getting-started/
-- type: x-pricing
-  url: https://aws.amazon.com/rekognition/pricing/
-- type: x-sdk
-  url: https://aws.amazon.com/rekognition/developers/#sdk
-- type: x-website
-  url: https://aws.amazon.com/rekognition/
 - type: x-blog
   url: https://aws.amazon.com/rekognition/developers/#blog-posts
 - type: x-customers
