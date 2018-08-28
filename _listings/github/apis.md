@@ -8,152 +8,188 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Labels
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Github Delete Repos Owner Repo Issues Number Labels
-  x-api-slug: github
+- name: GitHub - Delete Repos Owner Repo Issues Number Labels
+  x-api-slug: reposownerrepoissuesnumberlabels-delete
   description: Remove all labels from an issue.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/issues/{number}/labels
-  tags: Repos, Owner, Repo, Issues, Number, Labels
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepoissuesnumberlabels-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepoissuesnumberlabels-delete-openapi.md
-- name: Github Get Repos Owner Repo Issues Number Labels
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Issues Number Labels
+  x-api-slug: reposownerrepoissuesnumberlabels-get
   description: List labels on an issue.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/issues/{number}/labels
-  tags: Repos, Owner, Repo, Issues, Number, Labels
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepoissuesnumberlabels-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepoissuesnumberlabels-get-openapi.md
-- name: Github Add Repos Owner Repo Issues Number Labels
-  x-api-slug: github
+- name: GitHub - Add Repos Owner Repo Issues Number Labels
+  x-api-slug: reposownerrepoissuesnumberlabels-post
   description: Add labels to an issue.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/issues/{number}/labels
-  tags: Repos, Owner, Repo, Issues, Number, Labels
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepoissuesnumberlabels-post-openapi.md
-- name: Github Put Repos Owner Repo Issues Number Labels
-  x-api-slug: github
+- name: GitHub - Put Repos Owner Repo Issues Number Labels
+  x-api-slug: reposownerrepoissuesnumberlabels-put
   description: |-
     Replace all labels for an issue.
     Sending an empty array ([]) will remove all Labels from the Issue.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/issues/{number}/labels
-  tags: Repos, Owner, Repo, Issues, Number, Labels
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepoissuesnumberlabels-put-openapi.md
-- name: Github Delete Repos Owner Repo Issues Number Labels Name
-  x-api-slug: github
+- name: GitHub - Delete Repos Owner Repo Issues Number Labels Name
+  x-api-slug: reposownerrepoissuesnumberlabelsname-delete
   description: Remove a label from an issue.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/issues/{number}/labels/{name}
-  tags: Repos, Owner, Repo, Issues, Number, Labels, Name
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepoissuesnumberlabelsname-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepoissuesnumberlabelsname-delete-openapi.md
-- name: Github Get Repos Owner Repo Labels
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Labels
+  x-api-slug: reposownerrepolabels-get
   description: List all labels for this repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/labels
-  tags: Repos, Owner, Repo, Labels
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepolabels-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepolabels-get-openapi.md
-- name: Github Add Repos Owner Repo Labels
-  x-api-slug: github
+- name: GitHub - Add Repos Owner Repo Labels
+  x-api-slug: reposownerrepolabels-post
   description: Create a label.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/labels
-  tags: Repos, Owner, Repo, Labels
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepolabels-post-openapi.md
-- name: Github Delete Repos Owner Repo Labels Name
-  x-api-slug: github
+- name: GitHub - Delete Repos Owner Repo Labels Name
+  x-api-slug: reposownerrepolabelsname-delete
   description: Delete a label.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/labels/{name}
-  tags: Repos, Owner, Repo, Labels, Name
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepolabelsname-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepolabelsname-delete-openapi.md
-- name: Github Get Repos Owner Repo Labels Name
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Labels Name
+  x-api-slug: reposownerrepolabelsname-get
   description: Get a single label.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/labels/{name}
-  tags: Repos, Owner, Repo, Labels, Name
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepolabelsname-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepolabelsname-get-openapi.md
-- name: Github Patch Repos Owner Repo Labels Name
-  x-api-slug: github
+- name: GitHub - Patch Repos Owner Repo Labels Name
+  x-api-slug: reposownerrepolabelsname-patch
   description: Update a label.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/labels/{name}
-  tags: Repos, Owner, Repo, Labels, Name
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepolabelsname-patch-openapi.md
-- name: Github Get Repos Owner Repo Milestones Number Labels
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Milestones Number Labels
+  x-api-slug: reposownerrepomilestonesnumberlabels-get
   description: Get labels for every issue in a milestone.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/milestones/{number}/labels
-  tags: Repos, Owner, Repo, Milestones, Number, Labels
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepomilestonesnumberlabels-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/reposownerrepomilestonesnumberlabels-get-openapi.md
-- name: Github
-  x-api-slug: github
-  description: GitHub brings together the worlds largest community of developers to
-    discover, share, and build better software. From open source projects to private
-    team repositories, were your all-in-one platform for collaborative development.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com//
-  tags: Labels
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/labels/master/_listings/github/openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net
+- type: x-api-gallery
+  url: http://giphy.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://github.stack.network
 - type: x-base
   url: https://api.github.com
 - type: x-blog
